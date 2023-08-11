@@ -1,6 +1,6 @@
 #import <Capacitor/Capacitor-Swift.h>
 #import <Capacitor/Capacitor.h>
-#import <SSZipArchive/SSZipArchive.h>
+#import "SSZipArchive/SSZipArchive.h"
 #import "CodePush.h"
 #import "CodePushPackageMetadata.h"
 #import "CodePushPackageManager.h"
