@@ -2,12 +2,12 @@ PODS:
   - Capacitor (5.2.2):
     - CapacitorCordova
   - CapacitorCordova (5.2.2)
-  - SSZipArchive (2.4.3)
+  - SSZipArchive (2.2.3)
 
 DEPENDENCIES:
   - "Capacitor (from `../node_modules/@capacitor/ios`)"
   - "CapacitorCordova (from `../node_modules/@capacitor/ios`)"
-  - SSZipArchive
+  - SSZipArchive (~> 2.2.2)
 
 SPEC REPOS:
   trunk:
@@ -22,8 +22,8 @@ EXTERNAL SOURCES:
 SPEC CHECKSUMS:
   Capacitor: 070b18988e0f566728ae9a5eb3a7a974595f1626
   CapacitorCordova: 3773395d5331add072300ff6041ca2cf7b93cb0b
-  SSZipArchive: fe6a26b2a54d5a0890f2567b5cc6de5caa600aef
+  SSZipArchive: 62d4947b08730e4cda640473b0066d209ff033c9
 
-PODFILE CHECKSUM: 10605a926432a864261efac9d5a271b3ceb34797
+PODFILE CHECKSUM: e837cf818d2a429f4c2b16994e765f865a9bfd9c
 
 COCOAPODS: 1.12.1

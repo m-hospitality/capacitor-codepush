@@ -7,10 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		03FC29A292ACC40490383A1F /* Pods_Plugin.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3B2A61DA5A1F2DD4F959604D /* Pods_Plugin.framework */; };
 		20C0B05DCFC8E3958A738AF2 /* Pods_PluginTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F6753A823D3815DB436415E3 /* Pods_PluginTests.framework */; };
-		50ADFF92201F53D600D50D53 /* DwimcoreCapacitorCodepush.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 50ADFF88201F53D600D50D53 /* DwimcoreCapacitorCodepush.framework */; };
+		50ADFF92201F53D600D50D53 /* Plugin.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 50ADFF88201F53D600D50D53 /* Plugin.framework */; };
 		50ADFFA42020D75100D50D53 /* Capacitor.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 50ADFFA52020D75100D50D53 /* Capacitor.framework */; };
+		A6CA26320BCFAEBE52A2A6CA /* Pods_Plugin.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D819E492F0126AD71C24FE4E /* Pods_Plugin.framework */; };
 		BBCDF6A02989595E0058FE23 /* InstallMode.h in Headers */ = {isa = PBXBuildFile; fileRef = BBCDF64D2989595E0058FE23 /* InstallMode.h */; };
 		BBCDF6A12989595E0058FE23 /* CodePushPackageManager.h in Headers */ = {isa = PBXBuildFile; fileRef = BBCDF64E2989595E0058FE23 /* CodePushPackageManager.h */; };
 		BBCDF6A22989595E0058FE23 /* CodePushPackageManager.m in Sources */ = {isa = PBXBuildFile; fileRef = BBCDF64F2989595E0058FE23 /* CodePushPackageManager.m */; };
@@ -97,11 +97,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		3B2A61DA5A1F2DD4F959604D /* Pods_Plugin.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Plugin.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		50ADFF88201F53D600D50D53 /* DwimcoreCapacitorCodepush.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = DwimcoreCapacitorCodepush.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		23099FB7CC1A9C7E709D91DF /* Pods-Plugin.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Plugin.release.xcconfig"; path = "Pods/Target Support Files/Pods-Plugin/Pods-Plugin.release.xcconfig"; sourceTree = "<group>"; };
+		50ADFF88201F53D600D50D53 /* Plugin.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Plugin.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		50ADFF91201F53D600D50D53 /* PluginTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PluginTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		50ADFFA52020D75100D50D53 /* Capacitor.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Capacitor.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		5E23F77F099397094342571A /* Pods-Plugin.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Plugin.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Plugin/Pods-Plugin.debug.xcconfig"; sourceTree = "<group>"; };
+		6F337748267847EFDC15EEA5 /* Pods-Plugin.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Plugin.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Plugin/Pods-Plugin.debug.xcconfig"; sourceTree = "<group>"; };
 		91781294A431A2A7CC6EB714 /* Pods-Plugin.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Plugin.release.xcconfig"; path = "Pods/Target Support Files/Pods-Plugin/Pods-Plugin.release.xcconfig"; sourceTree = "<group>"; };
 		96ED1B6440D6672E406C8D19 /* Pods-PluginTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PluginTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-PluginTests/Pods-PluginTests.debug.xcconfig"; sourceTree = "<group>"; };
 		BBCDF64D2989595E0058FE23 /* InstallMode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InstallMode.h; sourceTree = "<group>"; };
@@ -177,6 +178,7 @@
 		BBCDF6E829895C130058FE23 /* FilesystemUtils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilesystemUtils.swift; sourceTree = "<group>"; };
 		BBCDF6EA29895CBB0058FE23 /* HttpRequestHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HttpRequestHandler.swift; sourceTree = "<group>"; };
 		BBCDF6EC29895CF80058FE23 /* CapacitorCommunityUrlRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CapacitorCommunityUrlRequest.swift; sourceTree = "<group>"; };
+		D819E492F0126AD71C24FE4E /* Pods_Plugin.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Plugin.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F65BB2953ECE002E1EF3E424 /* Pods-PluginTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PluginTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-PluginTests/Pods-PluginTests.release.xcconfig"; sourceTree = "<group>"; };
 		F6753A823D3815DB436415E3 /* Pods_PluginTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PluginTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -187,7 +189,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				50ADFFA42020D75100D50D53 /* Capacitor.framework in Frameworks */,
-				03FC29A292ACC40490383A1F /* Pods_Plugin.framework in Frameworks */,
+				A6CA26320BCFAEBE52A2A6CA /* Pods_Plugin.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -195,7 +197,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				50ADFF92201F53D600D50D53 /* DwimcoreCapacitorCodepush.framework in Frameworks */,
+				50ADFF92201F53D600D50D53 /* Plugin.framework in Frameworks */,
 				20C0B05DCFC8E3958A738AF2 /* Pods_PluginTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -216,7 +218,7 @@
 		50ADFF89201F53D600D50D53 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				50ADFF88201F53D600D50D53 /* DwimcoreCapacitorCodepush.framework */,
+				50ADFF88201F53D600D50D53 /* Plugin.framework */,
 				50ADFF91201F53D600D50D53 /* PluginTests.xctest */,
 			);
 			name = Products;
@@ -259,6 +261,8 @@
 				91781294A431A2A7CC6EB714 /* Pods-Plugin.release.xcconfig */,
 				96ED1B6440D6672E406C8D19 /* Pods-PluginTests.debug.xcconfig */,
 				F65BB2953ECE002E1EF3E424 /* Pods-PluginTests.release.xcconfig */,
+				6F337748267847EFDC15EEA5 /* Pods-Plugin.debug.xcconfig */,
+				23099FB7CC1A9C7E709D91DF /* Pods-Plugin.release.xcconfig */,
 			);
 			name = Pods;
 			sourceTree = "<group>";
@@ -267,8 +271,8 @@
 			isa = PBXGroup;
 			children = (
 				50ADFFA52020D75100D50D53 /* Capacitor.framework */,
-				3B2A61DA5A1F2DD4F959604D /* Pods_Plugin.framework */,
 				F6753A823D3815DB436415E3 /* Pods_PluginTests.framework */,
+				D819E492F0126AD71C24FE4E /* Pods_Plugin.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -492,9 +496,9 @@
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		50ADFF87201F53D600D50D53 /* DwimcoreCapacitorCodepush */ = {
+		50ADFF87201F53D600D50D53 /* Plugin */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 50ADFF9C201F53D600D50D53 /* Build configuration list for PBXNativeTarget "DwimcoreCapacitorCodepush" */;
+			buildConfigurationList = 50ADFF9C201F53D600D50D53 /* Build configuration list for PBXNativeTarget "Plugin" */;
 			buildPhases = (
 				AB5B3E54B4E897F32C2279DA /* [CP] Check Pods Manifest.lock */,
 				50ADFF83201F53D600D50D53 /* Sources */,
@@ -506,9 +510,9 @@
 			);
 			dependencies = (
 			);
-			name = DwimcoreCapacitorCodepush;
+			name = Plugin;
 			productName = Plugin;
-			productReference = 50ADFF88201F53D600D50D53 /* DwimcoreCapacitorCodepush.framework */;
+			productReference = 50ADFF88201F53D600D50D53 /* Plugin.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		50ADFF90201F53D600D50D53 /* PluginTests */ = {
@@ -565,7 +569,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				50ADFF87201F53D600D50D53 /* DwimcoreCapacitorCodepush */,
+				50ADFF87201F53D600D50D53 /* Plugin */,
 				50ADFF90201F53D600D50D53 /* PluginTests */,
 			);
 		};
@@ -706,7 +710,7 @@
 /* Begin PBXTargetDependency section */
 		50ADFF94201F53D600D50D53 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 50ADFF87201F53D600D50D53 /* DwimcoreCapacitorCodepush */;
+			target = 50ADFF87201F53D600D50D53 /* Plugin */;
 			targetProxy = 50ADFF93201F53D600D50D53 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -768,7 +772,7 @@
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
-				SWIFT_OBJC_INTERFACE_HEADER_NAME = "DwimcoreCapacitorCodepush-Swift.h";
+				SWIFT_OBJC_INTERFACE_HEADER_NAME = "Plugin-Swift.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
@@ -823,7 +827,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
-				SWIFT_OBJC_INTERFACE_HEADER_NAME = "DwimcoreCapacitorCodepush-Swift.h";
+				SWIFT_OBJC_INTERFACE_HEADER_NAME = "Plugin-Swift.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
@@ -833,7 +837,7 @@
 		};
 		50ADFF9D201F53D600D50D53 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 5E23F77F099397094342571A /* Pods-Plugin.debug.xcconfig */;
+			baseConfigurationReference = 6F337748267847EFDC15EEA5 /* Pods-Plugin.debug.xcconfig */;
 			buildSettings = {
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
@@ -848,10 +852,10 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks $(FRAMEWORK_SEARCH_PATHS)\n$(FRAMEWORK_SEARCH_PATHS)\n$(FRAMEWORK_SEARCH_PATHS)";
 				ONLY_ACTIVE_ARCH = YES;
 				PRODUCT_BUNDLE_IDENTIFIER = com.getcapacitor.Plugin;
-				PRODUCT_MODULE_NAME = DwimcoreCapacitorCodepush;
+				PRODUCT_MODULE_NAME = Plugin;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
-				SWIFT_OBJC_INTERFACE_HEADER_NAME = "DwimcoreCapacitorCodepush-Swift.h";
+				SWIFT_OBJC_INTERFACE_HEADER_NAME = "Plugin-Swift.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -860,7 +864,7 @@
 		};
 		50ADFF9E201F53D600D50D53 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 91781294A431A2A7CC6EB714 /* Pods-Plugin.release.xcconfig */;
+			baseConfigurationReference = 23099FB7CC1A9C7E709D91DF /* Pods-Plugin.release.xcconfig */;
 			buildSettings = {
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
@@ -875,10 +879,10 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks $(FRAMEWORK_SEARCH_PATHS)";
 				ONLY_ACTIVE_ARCH = NO;
 				PRODUCT_BUNDLE_IDENTIFIER = com.getcapacitor.Plugin;
-				PRODUCT_MODULE_NAME = DwimcoreCapacitorCodepush;
+				PRODUCT_MODULE_NAME = Plugin;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
-				SWIFT_OBJC_INTERFACE_HEADER_NAME = "DwimcoreCapacitorCodepush-Swift.h";
+				SWIFT_OBJC_INTERFACE_HEADER_NAME = "Plugin-Swift.h";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -928,7 +932,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		50ADFF9C201F53D600D50D53 /* Build configuration list for PBXNativeTarget "DwimcoreCapacitorCodepush" */ = {
+		50ADFF9C201F53D600D50D53 /* Build configuration list for PBXNativeTarget "Plugin" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				50ADFF9D201F53D600D50D53 /* Debug */,

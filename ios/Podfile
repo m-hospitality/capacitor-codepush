@@ -9,7 +9,7 @@ end
 
 target 'Plugin' do
   capacitor_pods
-  pod 'SSZipArchive'
+  pod 'SSZipArchive', '~> 2.2.2'
 end
 
 target 'PluginTests' do
